@@ -37,7 +37,7 @@ public class Poem extends JFrame {
 
     public void paint(Graphics g){
         super.paint(g);
-        // The Road not taken by Robert Frost 
+        /* The Road not taken by Robert Frost */ 
         String line1 = "Two roads diverged in a yellow wood,\n";
         String line2 =  "And sorry I could not travel both And be one traveler,\n";
         String line3 =  "long I stood And looked down one as far as I could\n";
@@ -57,7 +57,8 @@ public class Poem extends JFrame {
         String line17 =  "I took the one less traveled by,\n";
         String line18 =  "And that has made all the difference.\n";
         g.drawImage(img, 0,0, this);
-        // The lines of code underneeth, render all the lines of the poem above and also change the color of the text every 6 lines
+        /* The lines of code underneeth, render all the lines of the poem above and
+        also change the color of the text every 6 lines */
         g.setColor(Color.yellow);
         g.drawString(line1, 300, 100);
         g.drawString(line2, 300, 120);
